@@ -1,0 +1,166 @@
+@import url("https://fonts.googleapis.com/css2?family=Satisfy&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: linear-gradient(to right, #e9b7ce, #d3f3f1, #e9b7ce);
+  display: flex;
+  flex-direction: row;
+}
+.body-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Header Styling ---- starts  */
+/* Navbar - Image */
+nav {
+  font-family: "Oswald", sans-serif;
+}
+
+.nav-image {
+  width: 50px;
+  height: 40px;
+  border-radius: 5px;
+}
+/* Navbar RK Title */
+.nav-rk-title {
+  margin-left: 15px;
+}
+
+/* Title */
+.title-part {
+  font-family: "Satisfy", cursive;
+  text-align: center;
+  font-size: 210px;
+  padding: 180px;
+  padding-bottom: 230px;
+}
+
+/* Section-1 */
+.image-carousel {
+  height: 400px;
+  width: 50%;
+  text-align: center;
+}
+
+/* Section-2 */
+.about-us {
+  margin-top: 110px;
+  padding-top: 20px;
+  height: 400px;
+  width: 50%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  border-top: 2px solid rgba(29, 28, 28, 0.608);
+  margin-bottom: 80px;
+  padding-bottom: 10px;
+}
+
+.about-us-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-3 {
+  font-family: "Oswald", sans-serif;
+  font-size: 40px;
+}
+.para {
+  font-family: "Oswald", sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+}
+
+/* Container */
+
+.learnmore {
+  border-top: 2px solid rgba(29, 28, 28, 0.608);
+  padding-top: 10px;
+}
+
+/* Section-3 */
+.section-card {
+  background-color: rgba(41, 43, 43, 0.155);
+  height: 350px;
+  width: 350px;
+  text-align: center;
+  border-radius: 5px;
+  display: flex;
+  padding: 15px;
+  margin: 5px;
+}
+.section-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.button {
+  height: 50px;
+  width: 130px;
+  background-color: #d3f3f153;
+  border-radius: 5px !important;
+  border: 2px solid #e9b7ceb3;
+}
+
+svg {
+  height: 50px;
+  width: 25px;
+}
+
+/* Section-4 */
+#digdetails {
+  border-top: 10px solid #d3f3f165;
+  border-bottom: 10px solid #d3f3f165;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.digdetails {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+}
+.digdetails-content {
+  padding-left: 90px;
+  padding-right: 90px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Footer */
+footer {
+  height: 100px;
+  width: 100%;
+  text-align: center;
+  background-color: rgba(41, 43, 43, 0.155);
+  padding: 25px;
+}
+
+.header-6 {
+  font-family: "Oswald", sans-serif;
+  font-size: 20px;
+}
+.para-footer {
+  font-family: "Oswald", sans-serif;
+  font-size: 15px;
+}
+
+footer a:active {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
